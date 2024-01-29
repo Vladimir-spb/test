@@ -1,31 +1,31 @@
 import logging
 
-from test.api.crud.like.like_crud import LikeCrud
-from test.api.crud.user.user_crud import UserCrud
-from test.api.crud.wall.wall_crud_comment import WallCrudComment
-from test.api.crud.wall.wall_crud_photo import WallCrudPhoto
-from test.api.crud.wall.wall_crud_post import WallCrudPost
-from test.api.data.model.requests_model.request_comment_api import RequestCommentApi
-from test.api.data.model.requests_model.request_delete_post import RequestDeletePost
-from test.api.data.model.requests_model.request_edit_post_api import RequestEditPostApi
-from test.api.data.model.requests_model.request_get_photo_url_api import RequestGetPhotoUrlApi
-from test.api.data.model.requests_model.request_post_wall_api import RequestPostWallApi
-from test.api.data.model.requests_model.request_post_wall_like import RequestPostWallLike
-from test.api.data.model.requests_model.request_save_photo_to_server import RequestSavePhotoToServer
-from test.api.data.model.requests_model.request_user_api import RequestUserApi
-from test.api.data.model.response_model.response_get_photo_url_api import ResponseGetPhotoUrlApi
-from test.api.data.model.response_model.response_like_from_post import ResponseLikeFromPost
-from test.api.data.model.response_model.response_photo_api import ResponsePhotoApi
-from test.api.data.model.response_model.response_post_wall_api import ResponsePostWallApi
-from test.api.data.model.response_model.response_upload_file_to_server import ResponseUploadFileToServer
-from test.api.data.model.response_model.response_user_api import ResponseUserApi
-from test.api.data.path_to_file import PathToFile
-from test.test.data_test.data_test_user import DataTestUser
-from test.test.steps.get_url_photo_step import PhotoStep
-from test.ui.pages.auth.registration_page import RegistrationPage
-from test.ui.pages.my_page_page import MyPagePage
-from test.ui.pages.news_page import NewsPage
-from test.utils.utils import Utils
+from api.crud.like.like_crud import LikeCrud
+from api.crud.user.user_crud import UserCrud
+from api.crud.wall.wall_crud_comment import WallCrudComment
+from api.crud.wall.wall_crud_photo import WallCrudPhoto
+from api.crud.wall.wall_crud_post import WallCrudPost
+from api.data.model.requests_model.request_comment_api import RequestCommentApi
+from api.data.model.requests_model.request_delete_post import RequestDeletePost
+from api.data.model.requests_model.request_edit_post_api import RequestEditPostApi
+from api.data.model.requests_model.request_get_photo_url_api import RequestGetPhotoUrlApi
+from api.data.model.requests_model.request_post_wall_api import RequestPostWallApi
+from api.data.model.requests_model.request_post_wall_like import RequestPostWallLike
+from api.data.model.requests_model.request_save_photo_to_server import RequestSavePhotoToServer
+from api.data.model.requests_model.request_user_api import RequestUserApi
+from api.data.model.response_model.response_get_photo_url_api import ResponseGetPhotoUrlApi
+from api.data.model.response_model.response_like_from_post import ResponseLikeFromPost
+from api.data.model.response_model.response_photo_api import ResponsePhotoApi
+from api.data.model.response_model.response_post_wall_api import ResponsePostWallApi
+from api.data.model.response_model.response_upload_file_to_server import ResponseUploadFileToServer
+from api.data.model.response_model.response_user_api import ResponseUserApi
+from api.data.path_to_file import PathToFile
+from test.data_test.data_test_user import DataTestUser
+from test.steps.get_url_photo_step import PhotoStep
+from ui.pages.auth.registration_page import RegistrationPage
+from ui.pages.my_page_page import MyPagePage
+from ui.pages.news_page import NewsPage
+from utils.utils import Utils
 
 logger = logging.getLogger(__name__)
 

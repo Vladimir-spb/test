@@ -4,7 +4,7 @@ import pytest
 from py_selenium_auto.browsers.browser_services import BrowserServices
 from py_selenium_auto_core.utilities.root_path_helper import RootPathHelper
 
-from test.ui.data.url_manager_ui import UrlManagerUi
+from ui.data.url_manager_ui import UrlManagerUi
 
 
 @pytest.fixture(scope="session", autouse=True)

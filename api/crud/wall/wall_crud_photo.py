@@ -1,6 +1,6 @@
 import requests
 
-from test.api.crud.base_crud.base_crud import BaseCrud
+from api.crud.base_crud.base_crud import BaseCrud
 
 
 class WallCrudPhoto(BaseCrud):

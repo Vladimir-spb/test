@@ -1,4 +1,4 @@
-from test.api.crud.wall.wall_crud_post import WallCrudPost
+from api.crud.wall.wall_crud_post import WallCrudPost
 
 
 class WallCrudComment(WallCrudPost):
