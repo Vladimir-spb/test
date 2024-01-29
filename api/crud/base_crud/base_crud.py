@@ -1,6 +1,6 @@
 import requests
 
-from api.data.url_manager_api import UrlManagerApi
+from test.api.data.url_manager_api import UrlManagerApi
 
 
 class BaseCrud:

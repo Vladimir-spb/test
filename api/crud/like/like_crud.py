@@ -1,4 +1,4 @@
-from api.crud.base_crud.base_crud import BaseCrud
+from test.api.crud.base_crud.base_crud import BaseCrud
 
 
 class LikeCrud(BaseCrud):

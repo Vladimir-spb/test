@@ -2,7 +2,7 @@ from py_selenium_auto.forms.form import Form
 from py_selenium_auto_core.locator.locator import Locator
 from selenium.webdriver.common.by import By
 
-from ui.pages.auth.password_form import PasswordForm
+from test.ui.pages.auth.password_form import PasswordForm
 
 
 class RegistrationPage(Form):

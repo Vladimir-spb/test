@@ -2,7 +2,7 @@ from dataclasses import dataclass
 
 from dataclasses_json import DataClassJsonMixin
 
-from test.data_test.data_test_user import DataTestUser
+from test.test.data_test.data_test_user import DataTestUser
 
 
 @dataclass
