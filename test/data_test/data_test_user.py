@@ -1,0 +1,6 @@
+class DataTestUser:
+    USER_LOGIN = '79279318980'
+    USER_PASSWORD = 'aq1ainmyhearttestinginmylife'
+    USER_ID = '674435236'
+    ACCESS_TOKEN = "vk1.a.PD6yRQ6Y-cK2e2XuTn9XWZ8xkVzoVc5aV4W6tGdUEfebuzQXHAebQkNEQMDZQ1OQ9h9TVXJF2ZFPMMKY7kqkyo3qVgMAV0mpHpG0bI8KsDscVs6e4F7AMFtk849CmxDpwgsb1rnkB1KUx-E_j2qYme3Cz4pX7eRcDoMnSHcUEfe5e7OBxt4cw94AwqFU4gKG1iSfN9iibz7aOcCExqTMlg"
+    VERSION_API = '5.199'
